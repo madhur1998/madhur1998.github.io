@@ -4,6 +4,7 @@
 <head>
     <title>Weather App</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 <body>
 <header>
@@ -12,9 +13,10 @@
 </header>
 <main>
     <!-- input -->
-    <form class="submit">
-        <input type="text" placeholder="Enter your city...">
-        <button type="submit">Get Weather</button>
+    <form class="form-text" action="#">
+        <input class="input" type="text" placeholder="Enter your city...">
+        <button class="submit">Get Weather</button>
+        <span class="error"></span>
     </form> 
     <!-- ./input -->
     <!-- output -->
@@ -22,6 +24,10 @@
         
     </div>
     <!-- ./output -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="js/javascript.js"></script>
+    
 </main>
 
 </body>
