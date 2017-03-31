@@ -1,6 +1,6 @@
 # Weather Finder
 
-A simple web app to tell weather of a place.
+A simple web app to tell weather of a place..
 
 Enter any city name and press enter or click on Get Weather button.
 
